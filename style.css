@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;;
+}
+main {
+    width: 850px;
+    display: flex;
+    border-radius: 15px;
+    background-color: gray;
+    height: 550px;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+.con {
+    width: 100%;
+    height: 250px;
+    background-color: hsl(204, 43%, 93%);
+    padding: 30px;
+}
+.left{
+    width: 425px;
+    height: 300px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+.right {
+    width: 425px;
+    height: 300px;
+    padding: 30px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+li  {
+    list-style: none;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.con h3 {
+    color: hsl(71, 73%, 54%);
+    font-size: 25px;
+}
+h2 {
+    color:hsl(179, 62%, 43%) ;
+    font-size: 30px;
+}
+.con p {
+    color: gray;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.con, .left, .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button {
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 20px;
+}
+span {
+    font-size: 40px;
+}
